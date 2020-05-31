@@ -1,0 +1,42 @@
+html{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(230, 165, 101);
+    margin: 0;
+    padding: 20px;
+}
+
+#logo {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+#menu li{
+    margin: 0;
+    float: left;
+    list-style: none;
+}
+
+#menu a{
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 0px 10px 0px 0px;
+    display: block;
+    float: left;
+    
+
+}
+#menu a:hover{
+    background-color: rgb(255, 139, 23);
+    color:#fff;
+}
+img {
+    position: center;
+}
