@@ -14,12 +14,14 @@ body {
     text-align: center;
     color: white;
 
+
 }
 
-#menu li{
+#menu, li{
     margin: 0;
     float: left;
     list-style: none;
+    
 }
 
 #menu a{
@@ -31,12 +33,152 @@ body {
     display: block;
     float: left;
     
+    
 
 }
 #menu a:hover{
     background-color: rgb(255, 139, 23);
     color:#fff;
 }
-img {
-    position: center;
+
+#BigContainer{
+    max-width:100%;
+    padding: 50px;
+    background-color: rgb(255, 139, 23);
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: flexbox;
+    box-sizing: content-box;
+    border: 2px solid white;
+    
+    
+
 }
+
+.box1  {
+    
+     background: palevioletred;
+     padding: 30px;
+     font-size: 12px;
+     display: block;
+     border: 2px solid white;
+}
+.box2{
+    
+    background: pink;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+
+.box3{
+    
+    background: blue;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+
+.box4{
+    
+    background: blueviolet;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+
+.box5{
+
+    
+    background:grey;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+
+.box6{
+  
+  background:red;
+  padding: 30px;
+  font-size: 12px;
+  display: block;
+  border: 2px solid white;
+}
+.box7{
+    flex: 1;
+    background:green;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+.box8{
+    flex: 1;
+    background:green;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+.box9{
+    flex: 1;
+    background:green;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+.box10{
+    flex: 1;
+    background:green;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+.box11{
+    flex: 1;
+    background:green;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+.box12{
+    flex: 1;
+    background:green;
+    padding: 30px;
+    font-size: 12px;
+    display: block;
+    border: 2px solid white;
+}
+.BigImage{
+    max-width: auto;
+    max-height: auto;
+    display: block;
+    margin: center;
+
+}
+
+#BigContainer ,ul{
+
+    display: flex;
+    list-style: none; 
+    float: left;
+
+}
+
+#Images{
+ width: 500px;
+ height: 500px;
+ margin:center;
+
+}
+
+
+
