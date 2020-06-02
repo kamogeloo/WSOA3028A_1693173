@@ -41,127 +41,151 @@ body {
     color:#fff;
 }
 
-#BigContainer{
+/*#BigContainer{
     max-width:100%;
     padding: 50px;
-    background-color: rgb(255, 139, 23);
+    background-color: rgb(230, 165, 101);
     list-style: none;
     color: white;
     text-decoration: none;
     display: flexbox;
     box-sizing: content-box;
-    border: 2px solid white;
+    border: 5px solid white;
     
     
 
-}
+}*/
 
 .box1  {
     
-     background: palevioletred;
+     background: rgb(230, 165, 101);
      padding: 30px;
      font-size: 12px;
      display: block;
-     border: 2px solid white;
+     border: 5px solid white;
+     text-align: center;
+     color: white;
 }
 .box2{
     
-    background: pink;
+    background:  rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
 
 .box3{
     
-    background: blue;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
 
 .box4{
     
-    background: blueviolet;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
 
 .box5{
 
     
-    background:grey;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
 
 .box6{
   
-  background:red;
+  background: rgb(230, 165, 101);
   padding: 30px;
   font-size: 12px;
   display: block;
-  border: 2px solid white;
+  border: 5px solid white;
+  text-align: center;
+  color: white;
 }
 .box7{
     flex: 1;
-    background:green;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
 .box8{
     flex: 1;
-    background:green;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid #ffffff;
+    text-align: center;
+    color: white;
 }
 .box9{
     flex: 1;
-    background:green;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid #ffffff;
+    text-align: center;
+    color: white;
 }
 .box10{
     flex: 1;
-    background:green;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
 .box11{
     flex: 1;
-    background:green;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
 .box12{
     flex: 1;
-    background:green;
+    background: rgb(230, 165, 101);
     padding: 30px;
     font-size: 12px;
     display: block;
-    border: 2px solid white;
+    border: 5px solid white;
+    text-align: center;
+    color: white;
 }
-.BigImage{
-    max-width: auto;
-    max-height: auto;
+#BigImage{
+    max-width: 2500px;
+    max-height: 1500px;
     display: block;
-    margin: center;
+    margin-right: auto;
 
 }
 
@@ -178,6 +202,10 @@ body {
  height: 500px;
  margin:center;
 
+
+}
+#content{
+    color: white;
 }
 
 
