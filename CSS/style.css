@@ -3,16 +3,24 @@ html{
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    background-color: rgb(230, 165, 101);
+header{
+    background-color: white;
+    padding: 80px;
     margin: 0;
-    padding: 20px;
+
+}
+
+body {
+   background-color: rgb(230, 165, 101);
+    margin: 0;
+    padding: 0;
+
 }
 
 #logo {
     font-size: 30px;
     text-align: center;
-    color: white;
+    color: gray;
 
 
 }
@@ -25,7 +33,7 @@ body {
 }
 
 #menu a{
-    color: #fff;
+    color:gray;
     padding: 1em 2em;
     text-decoration: none;
     font-size: 1.2em;
@@ -182,12 +190,17 @@ body {
     color: white;
 }
 #BigImage{
-    max-width: 2500px;
-    max-height: 1500px;
+    max-width: 1920px;
+    max-height: 1007px;
     display: block;
-    margin-right: auto;
+    margin: 0;
 
 }
+
+/*#BigImage a:hover{
+    map
+
+}*/
 
 #BigContainer ,ul{
 
@@ -208,5 +221,13 @@ body {
     color: white;
 }
 
+#Posts {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
 
+#reference{
+    color: white;
+}
 
