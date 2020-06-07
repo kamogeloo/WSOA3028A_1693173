@@ -1,21 +1,37 @@
+#js 
+
+
 html{
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 }
 
 header{
-    background-color: white;
-    padding: 80px;
+    /*background-color: white;
+    padding: 80px;*/
     margin: 0;
 
 }
 
-body {
-   background-color: rgb(230, 165, 101);
-    margin: 0;
-    padding: 0;
+.home {
+   /*background-color: rgb(230, 165, 101);*/
+   background-image: url(resources/HerEyes.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
+    
+
+
 
 #logo {
     font-size: 30px;
@@ -25,14 +41,21 @@ body {
 
 }
 
-#menu, li{
+#menu, li {
     margin: 0;
     float: left;
     list-style: none;
+    padding:0;
     
+}
+@media screen and (max-width:100%){
+.navi.responsive {position: relative;}
+.navi.responsive{ position:absolute;
+} 
 }
 
 #menu a{
+ 
     color:gray;
     padding: 1em 2em;
     text-decoration: none;
@@ -40,15 +63,64 @@ body {
     margin-left: 0px 10px 0px 0px;
     display: block;
     float: left;
+    background: none;
+    border: none;
     
     
 
 }
-#menu a:hover{
-    background-color: rgb(255, 139, 23);
+#menu a:hover {
+    background-color: rgb(197, 162, 126);
     color:#fff;
 }
+ /*#dropdownbtn {
+     background: none;
+     color:gray;
+     border:none;
+     padding:0;
+     
+ }
+ #dropdownbtn a:hover{
+     background-color: rgb(197, 162, 126);
 
+ }
+
+ #dropdown{
+     position: absolute;
+     display: inline-block;
+ }*/
+
+ /*#blogLinks {
+     position: absolute;
+     background-color: none;
+     display:none;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgb(197, 162, 126);
+     overflow: auto;
+     color: gray;
+     
+     
+
+ }
+ #blogLinks a{
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size:1.2em;
+    display: block;
+    color:gray;
+ }
+
+ 
+ #blogLinks a:hover{
+
+    background-color: rgb(197, 162, 126);
+ }
+ .Show{
+     display: block;
+ }
+ /*.hide{
+     display:none;
+ }*/
 /*#BigContainer{
     max-width:100%;
     padding: 50px;
@@ -87,7 +159,7 @@ body {
 
 .box3{
     
-    background: rgb(230, 165, 101);
+    /*background: rgb(230, 165, 101);*/
     padding: 30px;
     font-size: 12px;
     display: block;
@@ -98,7 +170,7 @@ body {
 
 .box4{
     
-    background: rgb(230, 165, 101);
+    /*background: rgb(230, 165, 101);*/
     padding: 30px;
     font-size: 12px;
     display: block;
@@ -110,7 +182,7 @@ body {
 .box5{
 
     
-    background: rgb(230, 165, 101);
+    /*background: rgb(230, 165, 101);*/
     padding: 30px;
     font-size: 12px;
     display: block;
@@ -121,7 +193,7 @@ body {
 
 .box6{
   
-  background: rgb(230, 165, 101);
+  /*background: rgb(230, 165, 101);*/
   padding: 30px;
   font-size: 12px;
   display: block;
@@ -229,5 +301,18 @@ body {
 
 #reference{
     color: white;
+}
+
+#Homefooter{
+
+    color: rgb(95, 85, 85);
+    font-weight: bold;
+    height: 2.5rem;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    
+    
 }
 
