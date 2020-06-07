@@ -15,7 +15,7 @@ header{
 
 .home {
    /*background-color: rgb(230, 165, 101);*/
-   background-image: url(resources\Heads.jpg);
+   background-image: url("../resources/Heads.jpg");
    background-size: cover;
    background-repeat: no-repeat;
     padding: 25px;
@@ -48,9 +48,9 @@ header{
     padding:0;
     
 }
-@media screen and (max-width:100%){
+@media screen and (max-width:600px){
 .navi.responsive {position: relative;}
-.navi.responsive{ position:absolute;
+.navi.responsive a.clicky { position:absolute;
 } 
 }
 
