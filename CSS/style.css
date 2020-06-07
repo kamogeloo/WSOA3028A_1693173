@@ -1,4 +1,4 @@
-#js 
+
 
 
 html{
@@ -15,7 +15,7 @@ header{
 
 .home {
    /*background-color: rgb(230, 165, 101);*/
-   background-image: url(resources/HerEyes.jpg);
+   background-image: url(resources\Heads.jpg);
    background-size: cover;
    background-repeat: no-repeat;
     padding: 25px;

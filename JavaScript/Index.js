@@ -31,7 +31,15 @@ const menuItems =[
     }
   
     return li;*/
-   
+    
+    function createmenu(){
+        let menu =document.getElementById("menu");
+        if(menu.className ==="navi"){
+            menu.className += "responsive";
+        }else{
+            menu.className = "navi";
+        }
+        }
    
 
 
@@ -60,11 +68,4 @@ nav.appendChild(ul);
 document.addEventListener('DOMContentLoaded', () => Menucreation());
 console.log('DOM is loaded');
 
-function createmenu(){
-    let menu =document.getElementById("menu");
-    if(menu.className ==="navi"){
-        menu.className += "responsive";
-    }else{
-        menu.className = "navi";
-    }
-    }
+
