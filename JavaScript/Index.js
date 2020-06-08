@@ -9,7 +9,7 @@ const menuItems =[
     {title: 'Contact', link: '/Contact.html'},
     {title: 'Blogs', link: '/Blogposts.html'},
     
-]
+];
 
 /*const createmenuItems = (item) =>{
     const li = document.createElement ('li');
@@ -27,15 +27,14 @@ const menuItems =[
             let childmenuItems = createmenuItems(childItem);
             ul.appendChild(childmenuItems);
         }
-        li.append('ul');
+        li.appendChild('ul');
     }
   
     return li;*/
    
-   
 
 
-
+//code from Mike Geyser lecture
 const Menucreation = () => {
     const nav = document.querySelector ('nav');
  const ul = document.createElement ('ul');
@@ -47,12 +46,15 @@ const Menucreation = () => {
      a.href = item.link;
      
      ul.appendChild(li);
-     li.appendChild(a)
+     li.appendChild(a);
  
  }
 
 nav.appendChild(ul);
 };
+console.log('loading')
+
+
 
 
 
@@ -61,8 +63,8 @@ document.addEventListener('DOMContentLoaded', () => Menucreation());
 console.log('DOM is loaded');
 
 
- 
-function createMenu(){
+ //code from W3school on responsive menu
+function Responsivemenu(){
     let menu =document.getElementById("menu");
 
     if(menu.className ==="navi")  {

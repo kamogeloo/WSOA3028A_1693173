@@ -50,7 +50,7 @@ header{
 }
 @media screen and (max-width:600px){
 .navi.responsive {position: relative;}
-.navi.responsive a.clicky { position:absolute;
+.navi.responsive a.icon { position:absolute;
 } 
 }
 
