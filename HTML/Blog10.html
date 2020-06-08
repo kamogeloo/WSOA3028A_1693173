@@ -7,24 +7,38 @@
     <title>First Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "description" content="The History of The Internet blog">
-    <link href="style.css" rel= "stylesheet" type= "text/css">
-    <script src="JavaScript\Index.js" type="module" defer></script>
+    <link href="../css/style.css" rel= "stylesheet" type= "text/css">
+    <script src="../JavaScript/Index.js" type="module" defer></script>
 
 </head>
 
-<body style="background-color:rgb(182, 177, 107);"> 
+<body class = "blogposts"> 
 <header>
     <article>
             <h1>
                 First Blog: The History of The Internet</h1>
+                <nav class = "navi" id= "menu" >
+                    <ul>
+                        <li> <a href="index.html">home</a></li>
+                        <li> <a href="About.html">About</a></li>
+                        <li> <a href="Portfolio.html">Character Portfolio</a></li>
+                        <li> <a href="Wireframe.html">Wireframes</a></li>
+                        <li> <a href="Styleguide.html">Website Style Guide</a></li>
+                        <li> <a href="Contact.html">Contact</a></li>
+                        <li> <a href="BlogPosts.html">Blogs</a></li>
+                    </ul>
+            
+                <a href = "javascript:void(0);" class="icon" onclick="Responsivemenu()"><i class = "bars"></i></a>
+            
+                </nav>
                 
-
+               <figure>
                 <img src= "Cool website called Library of Babel - Imgur.gif"
                 alt= "gif illustrating the library of Babel website"
                 width="1000px"
                 height="500px" >  
                 <p style= color:white;font-size:medium;> Credit: <i>  https://imgur.com/a/x3P3C </i></p>
-        
+            </figure>
             
         </header> 
 
@@ -58,9 +72,20 @@
         </li>
     </ul>
    
-        <a href="index.html">Back</a>  <a href="Blog2.html">Next</a>
-</footer>
+        >
+        <div class = BacktoTop>
+
+            <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
     
+        </div> 
+</footer>
+<script>
+            
+    function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    }
+        </script>
     
 </body>
 </html>

@@ -8,17 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "url" content = "https://github.com/kamogeloo/WSOA3028A_1693173.git">
     <meta name = "description" content="This is the the Blog site">
-
-    <script src="../JavaScipt/Index.js" type="module" defer></script>
+   <script src="../JavaScipt/Index.js" type="module" defer></script>
     <link rel= "stylesheet"  type= "text/css" href="../css/style.css">
 </head>
 <body>
 
 <header>
-    <nav id= "menu" class = "navi">
-        <a href = "javascript:void(0);" class="clicky" onclick="createMenu()"><i class = "bars"></i></a>
-        </nav>
-    
+    <nav class = "navi" id= "menu" >
+        <ul>
+            <li> <a href="index.html">home</a></li>
+            <li> <a href="About.html">About</a></li>
+            <li> <a href="Portfolio.html">Character Portfolio</a></li>
+            <li> <a href="Wireframe.html">Wireframes</a></li>
+            <li> <a href="Styleguide.html">Website Style Guide</a></li>
+            <li> <a href="Contact.html">Contact</a></li>
+            <li> <a href="BlogPosts.html">Blogs</a></li>
+        </ul>
+
+    <a href = "javascript:void(0);" class="icon" onclick="Responsivemenu()"><i class = "bars"></i></a>
+
+    </nav>
 </header>
 
 <main>
@@ -236,8 +245,21 @@
 
 
 </main>
+<footer>
+    <div class = BacktoTop>
+
+        <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+
+    </div> 
+</footer>
+
+<script>
+            
+    function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    }
+        </script>
 </body>
-
-
 
 </html>

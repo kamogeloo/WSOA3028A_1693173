@@ -7,29 +7,31 @@
         <title>Seventh Blog</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name = "description" content="Interactivity Blog">  
-        <link href="style.css" rel= "stylesheet" type= "text/css">
+        <link href="../css/style.css" rel= "stylesheet" type= "text/css">
+        <script src="../JavaScript/Index.js" type="module" defer></script>
+
     </head>
-    <body style= "background-color: rgb(241, 178, 105);">
+    <body class = "blogposts">
         <header>
-            <h1 style="color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: normal;margin-left: 600px;">INTERACTIVITY<h1>
+            <h1 >INTERACTIVITY<h1>
         </header>
-        <figure style = "margin-left: 500px;">
+        <figure>
             <img src = https://cdn.dribbble.com/users/1742831/screenshots/3844347/web_interactive_menu.gif
              alt = "Interactive website example"
               width = "500px"
                height = "400px">
-            <p style= "color:white;font-size:medium;"> Credit: <i> https://www.prototypr.io/inspiration/web-interactive-menu/</i></p>
+            <figcaption> Credit: <i> https://www.prototypr.io/inspiration/web-interactive-menu/</i></figcaption>
 
         </figure>
 
         <main>
             <section>
 
-                <p style="color: white;font-size:x-large;">Interactivity according to Aaron Smuts means when something is responsive, if it gives the user some kind of agency and if it does not respond in a “random fashion” (Smuts p65). Something can also be considered interactive when it requires nontrivial effort, and if it can modify the shape of the text in some way. Hypertext is the organization of information units into connected associations that a user can choose to make,  provide the most common form of interactivity when using the Web.</p>
-                <p style="color: white;font-size:x-large;"> Any kind of user input, this is inclusive of typing commands or clicking the mouse, is a form of input. Inputs in the web/computer outputs forms of interactivity, this can include printouts, sounds, displayed images, text, videos etc. </p>
-                <p style="color: white;font-size:x-large;"> Interactive web design is one which uses features aimed at creating an environment for a website or web application user to be actively engaged during a visit or use; it can also be used to improve user experience.</p>
-                <h3 style="color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: normal;margin: 10px;"> Elements of interactivity in the web include:</h3>
-                <ul style="color: white;font-size:x-large;">
+                <p>Interactivity according to Aaron Smuts means when something is responsive, if it gives the user some kind of agency and if it does not respond in a “random fashion” (Smuts p65). Something can also be considered interactive when it requires nontrivial effort, and if it can modify the shape of the text in some way. Hypertext is the organization of information units into connected associations that a user can choose to make,  provide the most common form of interactivity when using the Web.</p>
+                <p> Any kind of user input, this is inclusive of typing commands or clicking the mouse, is a form of input. Inputs in the web/computer outputs forms of interactivity, this can include printouts, sounds, displayed images, text, videos etc. </p>
+                <p> Interactive web design is one which uses features aimed at creating an environment for a website or web application user to be actively engaged during a visit or use; it can also be used to improve user experience.</p>
+                <h> Elements of interactivity in the web include:</h3>
+                <u">
                 <li> Hyperlinks</li>
                 <li>Graphics/ animation/sound</li>
                 <li>Channels for on-line communication/transaction/feedback</li>
@@ -39,7 +41,7 @@
                 <li>Relevance of topics
                 </li>
                 </ul>
-                <p style="color: white;font-size:x-large;">
+                <p>
                     The benefits of interactive design are that it allows users to customize their user experience through their submission of personal data. It guides users on the site to their desires location through navigation, enables the owners of the websites to expand their reach more through the use of social media and blogs. It improves the overall user experience, and attracts more traffic to the website.</p>
                     
                      
@@ -47,11 +49,20 @@
 
         </main>
         <footer>
-            <date style = "color: white;"> <i>Written on April 23,2020 </i> </date>
-            <br>
-            <br>
-            <a style="font-size: large;color: rgb(255, 0, 0);margin-left: 700px;" href="Blog6.html">Back</a>  <a style="font-size:large;color:rgb(255, 0, 0);" href="index.html">Home</a>
+            <date> <i>Written on April 23,2020 </i> </date>
+            <div class = BacktoTop>
+
+                <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+        
+            </div> 
         </footer>
+        <script>
+                
+            function BacktoTop() {
+             document.body.scrollTop = 0
+             document.documentElement.scrollTop = 0;
+         }
+            </script>
 
     </body>
 </html>

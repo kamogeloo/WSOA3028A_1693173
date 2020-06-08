@@ -20,7 +20,18 @@
 
     <header>
         <nav id= "menu" class = "navi">
-            <a href = "javascript:void(0);" class="clicky" onclick="createMenu()"><i class = "bars"></i></a>
+
+            <ul>
+                <li> <a href="index.html">home</a></li>
+                <li> <a href="About.html">About</a></li>
+                <li> <a href="Portfolio.html">Character Portfolio</a></li>
+                <li> <a href="Wireframe.html">Wireframes</a></li>
+                <li> <a href="Styleguide.html">Website Style Guide</a></li>
+                <li> <a href="Contact.html">Contact</a></li>
+                <li> <a href="BlogPosts.html">Blogs</a></li>
+            </ul>
+    
+            <a href = "javascript:void(0);" class="icon" onclick="Responsivemenu()"><i class = "bars"></i></a>
             </nav>
 
         <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: xx-large; color:rgb(255, 255, 255);margin-left: 600px;margin-top: 100px;"> About</h1>
@@ -29,6 +40,17 @@
     <main>
 
         <h2 >Hello. Welcome To My Wesite!</h2>
+        <figure id ="nalediAbout">
+
+            <img style ="border-radius: 50%;" src = https://cdn.shopify.com/s/files/1/0686/6333/products/the-wrap-life-headwrap-red-stretch-flow-ruby-woah4_1200x.jpg?v=1579115643
+             alt = "PlaceHolder image for Naledi Sibiya"
+             width="50%"
+             height="50%"
+            >
+             <figcaption>https://thewrap.life/products/ruby-woah-stretch-flow</figcaption>
+             
+         </figure>
+
         
         <p >First of all thank you so much for stopping by to check out <i>Through My Eyes</i>, and also for checking out this section.</p>
         
@@ -52,10 +74,20 @@
     <footer>
 
     
-       <a  href="index.html">Home</a>
+        <div class = BacktoTop>
+
+            <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+    
+        </div> 
        
     </footer>
-                   
+    <script>
+            
+        function BacktoTop() {
+            document.body.scrollTop = 0
+            document.documentElement.scrollTop = 0;
+        }
+            </script>       
         
 
     </body>

@@ -9,58 +9,79 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name = "description" content="Wireframe design ideas">
         <link href="../css/style.css" rel= "stylesheet" type= "text/css">
+        <script src="../JavaScript/Index.js" type="module" defer></script>
 
     </head>
     <body >
         <header>
             <nav id= "menu" class = "navi">
-                <a href = "javascript:void(0);" class="clicky" onclick="createMenu()"><i class = "bars"></i></a>
+                <ul>
+                    <li> <a href="index.html">home</a></li>
+                    <li> <a href="About.html">About</a></li>
+                    <li> <a href="Portfolio.html">Character Portfolio</a></li>
+                    <li> <a href="Wireframe.html">Wireframes</a></li>
+                    <li> <a href="Styleguide.html">Website Style Guide</a></li>
+                    <li> <a href="Contact.html">Contact</a></li>
+                    <li> <a href="BlogPosts.html">Blogs</a></li>
+                </ul>
+        
+                <a href = "javascript:void(0);" class="icon" onclick="Responsivemenu()"><i class = "bars"></i></a>
                 </nav>
-            <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:xx-large;color: white;margin-left: 700px;margin-bottom: 50px;"> 
+            <h1> 
                     Wireframes</h1>
         </header>
         <main>
 
           <div>
-         
-            <img src= wireframe1.png
+         <figure>
+            <img src= "/resources/wireframe1.png"
             alt= "illustration of wireframe"
             width="500px"
             height= "400px">
-            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: large;color:white;">This first wireframe represents how I imagine my homepage  will look like.</p>
-            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: large;color:white;margin-bottom: 100px;">All of the content boxes will have images and text, the text will be inclusive of the title of the blog post and some text from the blog post.</p>
+            <p>This first wireframe represents how I imagine my homepage  will look like.</p>
+            <p>All of the content boxes will have images and text, the text will be inclusive of the title of the blog post and some text from the blog post.</p>
+           
+         </figure>
 
         </div>
         
 
         <div>
 
-            <img src= Wireframe2.png
+        <figure>
+            <img src= "/resources/Wireframe2.png"
             alt= "Second Wireframe"
             width="500px"
             height= "400px">
-            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: large;color:white;">This is the design for the blog pages and for posts in general. </p>
-            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: large;color:white;margin-bottom: 100px;"> <i>NB: this not the final design, I might come up with another design later on.</i> </p>
+            <p >This is the design for the blog pages and for posts in general. </p>
+            <figcaption > <i>NB: this not the final design, I might come up with another design later on.</i> </figcaption>
+            </figure>
+
         </div>
     
         
         <div>
 
         
-            <img src= Wireframe3.png
+            <figure>
+            <img src= "/resources/Wireframe3.png"
             alt= "Third Wireframe "
             width="500px"
             height= "400px">
-            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: large;color:white;margin-bottom: 100px;"><i>The 'About' page wireframe. </i> </p>
+            <figcaption><i>The 'About' page wireframe. </i> </figcaption>
+        
+        </figure>
         </div>
         
            <div>
-
-            <img src= Wireframe4.png
+                     
+            <figure>
+            <img src= "/resources/Wireframe4.png"
             alt= " Fourth Wireframe "
             width="500px"
             height= "400px">
-            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: large;color:white;margin-bottom: 100px;"> <i>This the 'Contacts' page wireframe. </i> </p>
+            <figcaption> <i>This the 'Contacts' page wireframe. </i> </figcaption>
+        </figure>
 
         </div>
         
@@ -68,7 +89,19 @@
         </main>
         <footer>
 
-            <a style="margin-left: 650px;color: rgb(255, 0, 0);font-size: large;" href="index.html">Home</a>
+            <div class = BacktoTop>
+
+                <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+        
+            </div> 
         </footer>
+        
+      <script>
+            
+        function BacktoTop() {
+            document.body.scrollTop = 0
+            document.documentElement.scrollTop = 0;
+        }
+            </script>
     </body>
 </html>

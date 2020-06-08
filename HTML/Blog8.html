@@ -6,41 +6,58 @@
     <meta name = "author" content = "Naledi Sibiya">
     <title>First Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name = "description" content="The History of The Internet blog">
-    <link href="style.css" rel= "stylesheet" type= "text/css">
+    <meta name = "description" content=" Social capital and the three levels of digital divide.">
+    <link href="../css/style.css" rel= "stylesheet" type= "text/css">
     <script src="../JavaScript/Index.js" type="module" defer></script>
 
 </head>
 
-<body> 
+<body class = "blogposts"> 
 <header>
     <article>
             <h1>
-                First Blog: The History of The Internet</h1>
-                
+                Eighth Blog:  Social capital and the three levels of digital divide.</h1>
 
-                <img src= "Cool website called Library of Babel - Imgur.gif"
-                alt= "gif illustrating the library of Babel website"
+                <nav class = "navi" id= "menu" >
+                    <ul>
+                        <li> <a href="index.html">home</a></li>
+                        <li> <a href="About.html">About</a></li>
+                        <li> <a href="Portfolio.html">Character Portfolio</a></li>
+                        <li> <a href="Wireframe.html">Wireframes</a></li>
+                        <li> <a href="Styleguide.html">Website Style Guide</a></li>
+                        <li> <a href="Contact.html">Contact</a></li>
+                        <li> <a href="BlogPosts.html">Blogs</a></li>
+                    </ul>
+            
+                <a href = "javascript:void(0);" class="icon" onclick="Responsivemenu()"><i class = "bars"></i></a>
+            
+                </nav>
+                
+                <figure>
+                <img src= "https://miro.medium.com/max/1313/1*Teb-yXgLsVRhEHQf6b6u3w.gif"
+                alt= "Confused Homer Simpson"
                 width="1000px"
                 height="500px" >  
-                <p style= color:white;font-size:medium;> Credit: <i>  https://imgur.com/a/x3P3C </i></p>
+                <p > Credit: <i> https://medium.com/@natashalee_84864/digital-divide-of-the-ages-289b7ed30d0a </i></p>
+            </figure>
         
-                <button onclick="goBack()">Back</button>
             
         </header> 
 
 <main> 
     <content id= "Posts">
-    <p> </p>
+    <p>The concept of social capital can be defined as “the links, shared values and understandings in society that enable individuals and groups to trust each other and work together”, a simpler way to define this can be the idea of community where trusts exists.  </p>
     
-    <p ></p>
+    <p >Social capitalism using Coleman’s perspective means that a person’s actions and goals are shared by their environments and the social norms surrounding them.</p>
 
-    <p >  </p>
+    <p > According to Ragnedda and Ruiu, the first level of digital divide, which is about people getting or not getting access to technology as outdated because they believe that people not having access to digital devices is a result of different motivations, skills, use and opportunities. I would argue that this level of divide is relevant for discussion even today, because in developing countries, some parts do not even have electricity to begin with. </p>
     
-    <p ></p>
+    <p >The second level of digital divide is based on the inequalities in ICT and the use of the internet, it is based on the fact that some people have more advanced skills while other people have very limited skills. For some people, in South Africa, they only get to own laptops and acquire digital skills when they get to Tertiary institutions; and while they may improve their skills eventually, the ones that have always had access to devices such as laptops and have been taught advanced computer skills in primary or high school, will be at an.</p>
     
-    <p > </p>
-    </content>
+    <p > And the third level of digital divide has to do with how people reinvest valuable information in the social realm to improve our life chances.  </p>
+    <p >Ragnedda and Ruiu argue that when users’ approach the internet, they need to have already built a solid social capital in their off-line life, together with proper cultural and economic background and personal motivations. They argue that the internet just like most things in life, privileges the privileged. </p>
+    <p></p>
+</content>
 </main>
 
 </article>
@@ -52,22 +69,27 @@
     <ul>
         <li id = "citations">
                 
-           
+            Massimo Ragnedda and Maria Laura Ruiu (2017) Social capital and the three levels of digital divide. In Ragnedda M., Muschert G. eds. (2017), Theorizing Digital Divides, Routledge, pp. 21-34.
         </li>
         <li id= "citations">
           
         </li>
     </ul>
-   
-        <a href="index.html">Back</a>  <a href="Blog2.html">Next</a>
         
 </footer>
 
-    <script>
-      function goBack()  {
-    window.history.back();
-}
-</script>
-    
+<div class = BacktoTop>
+
+    <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+
+</div> 
+
+<script>
+            
+    function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    }
+        </script>
 </body>
 </html>

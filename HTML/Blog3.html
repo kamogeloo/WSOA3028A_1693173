@@ -7,12 +7,12 @@
     <title>Third Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "description" content="The URL blog">
-    <link href="style.css" rel= "stylesheet" type= "text/css">
-    <script src="JavaScript\Index.js" type="module" defer></script>
+    <link href="../css/style.css" rel= "stylesheet" type= "text/css">
+    <script src="../JavaScript/Index.js" type="module" defer></script>
 </head>
 
 
-<body>
+<body class = "blogposts">
 <hearder>
         <h1>WEB ROBOTS</h1>
     </hearder>
@@ -22,7 +22,7 @@
          alt= "gif illustration a web robot tracking restuarants nearby"
          width="1500px"
          height= "500px">
-         <p >Credit: <i>https://www.webfx.com/blog/internet/what-is-a-web-crawler/</i></p>
+         <figcaption >Credit: <i>https://www.webfx.com/blog/internet/what-is-a-web-crawler/</i></figcaption>
     </figure>
 
 <main> <content id = "content">
@@ -48,8 +48,20 @@
         </ul>
     
         
-        <a  href="Blog2.html">Back</a> &nbsp;&nbsp; <a  href="Blog4.html">Next</a>
+        <div class = BacktoTop>
+
+            <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+    
+        </div> 
 </footer> 
+
+<script>
+            
+    function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    }
+        </script>
 
 </body>
 

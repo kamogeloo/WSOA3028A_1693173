@@ -7,15 +7,15 @@
     <title>Fourth Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "description" content="What is Hypertext?">
-    <link href="style.css" rel= "stylesheet" type= "text/css">
-    <script src="JavaScript\Index.js" type="module" defer></script>
+    <link href="../css/style.css" rel= "stylesheet" type= "text/css">
+    <script src="../JavaScript/Index.js" type="module" defer></script>
 </head>
     
 
-<body );">
+<body class = "blogposts">
 
 <header>
-        <h1 style="color:rgb(255, 255, 255);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: normal;margin-left: 500px;">What is Hypertext? </h1>
+        <h1 >What is Hypertext? </h1>
 </header> 
 
 <main>
@@ -24,7 +24,7 @@
 <img src="https://media3.giphy.com/media/wT8eGTmeEAt3O/source.gif"
      alt = "Hand writing words on a canvas"
       width = "1000px"; height="500px"> <!--remember to write credits for image-->
-      <p > Credit: <i> https://giphy.com/gifs/gustavo-art-computer-kidmograph-wT8eGTmeEAt3O </i></p>
+      <figcaption> Credit: <i> https://giphy.com/gifs/gustavo-art-computer-kidmograph-wT8eGTmeEAt3O </i></figcaption>
      </figure>
 
 
@@ -51,8 +51,20 @@
      </ul>
 
 
-     <a >Back</a> &nbsp;&nbsp; <a  href="Blog5.html">Next</a>
+     <div class = BacktoTop>
+
+          <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+  
+      </div> 
 </footer>
+
+<script>
+            
+     function BacktoTop() {
+         document.body.scrollTop = 0
+         document.documentElement.scrollTop = 0;
+     }
+         </script>
 </body>
 
 </html>

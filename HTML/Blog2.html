@@ -8,15 +8,15 @@
     <title>Second Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "description" content="The URL blog">
-    <link href="style.css" rel= "stylesheet" type= "text/css">
-    <script src="JavaScript\Index.js" type="module" defer></script>
+    <link href="../css/style.css" rel= "stylesheet" type= "text/css">
+    <script src="../JavaScript/Index.js" type="module" defer></script>
 </head>
     
 
 
-    <body >
+    <body class = "blogposts">
 <header>
-        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:rgb(255, 255, 255);font-size: xx-large; margin-left: 700px;margin-bottom: 20px;">
+        <h1 >
             The URL</h1>
         </header>
 
@@ -28,8 +28,8 @@
             </figure>
 
 
-<main> <content id= "Posts">
-        <p > Credit: <i>https://gfycat.com/gloomyabsolutebrant</i></p>
+<main></main> <content id= "Posts">
+        <figcaption > Credit: <i>https://gfycat.com/gloomyabsolutebrant</i></figcaption>
 
         <p >The URL, according to the MDN website, stands for Uniform Resource Locator, it is  an address of a given unique resource on the Web. The URL is a tool used by browsers to extract any published resource on the web. Browsers are programs that retrieve and display pages from the web, and let users access further pages through hyperlinks; hyperlinks connect webpages or data items to one another. The URL is composed of different parts, some parts of it are important and some are optional. </p>
         
@@ -47,7 +47,7 @@
          alt= "screenshot of text from MDN"
           width="1000px"
           height= "200px">
-        <p >Credit: <i>MDN website</i></p>
+        <figcaption>Credit: <i>MDN website</i></figcaption>
     </figure>
 
         <p id= "Posts">When it comes to URLs, it is always advised that developers use semantic URLs; and this is because they use words with that can be understood by anyone, regardless of their technical literacy. Semantic URLs are also easier to manipulate, and they clarify things for users in terms of where they are, what they are doing, what they are reading or interacting with on the web. </p>
@@ -68,9 +68,20 @@
         </ul>
 <br>
 
-         <a  href="Blog1.html">Back</a>  <a href="Blog3.html">Next</a>
+<div class = BacktoTop>
+
+    <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+
+</div> 
 </footer>
     
+<script>
+            
+    function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    }
+        </script>
 </body>
 
 </html>

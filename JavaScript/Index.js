@@ -1,66 +1,34 @@
 
 
-const menuItems =[
-    {title: 'Home', link: '/Index.html'},
-    {title: 'About', link: '/About.html'},
-    {title: 'Character Portfolio', link: '/'},
-    {title: 'Wireframes', link: '/Wireframe.html'},
-    {title: 'Website Style Guide', link: '/Styleguide.html'},
-    {title: 'Contact', link: '/Contact.html'},
-    {title: 'Blogs', link: '/Blogposts.html'},
+//Back Button
+    let topbutton = document.getElementById("topbtn");
+    window.onscroll = function() {scrollTo()};
+    console.log('it works');
     
-];
-
-/*const createmenuItems = (item) =>{
-    const li = document.createElement ('li');
-    const a = document.createElement ( 'a');
-    a.innerText = item.title;
-    a.href = item.link;
-
-    li.append(a);
-    /*
-
-    if (item && item.length) {
-        let ul = document.createElement('ul');
-
-       /* for(let childItem of item.children) {
-            let childmenuItems = createmenuItems(childItem);
-            ul.appendChild(childmenuItems);
-        }
-        li.appendChild('ul');
+    function scrollTo() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+        {
+              topbutton.style.display = "block";
+    } 
+    else {
+        topbutton.style.display = "none";
     }
-  
-    return li;*/
-   
+    }
 
+    //function for when it gets clicked. user goes to the top of the page
 
-//code from Mike Geyser lecture
-const Menucreation = () => {
-    const nav = document.querySelector ('nav');
- const ul = document.createElement ('ul');
-
- for(let item of menuItems) {
-     const li = document.createElement('li');
-     const a = document.createElement('a');
-     a.innerText = item.title;
-     a.href = item.link;
-     
-     ul.appendChild(li);
-     li.appendChild(a);
- 
- }
-
-nav.appendChild(ul);
-};
-console.log('loading')
+    function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    
+    }
 
 
 
 
 
-
-document.addEventListener('DOMContentLoaded', () => Menucreation());
-console.log('DOM is loaded');
+//document.addEventListener('DOMContentLoaded', () => Menucreation());
+//console.log('DOM is loaded');
 
 
  //code from W3school on responsive menu
