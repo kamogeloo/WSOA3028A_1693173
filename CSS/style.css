@@ -5,6 +5,7 @@ html{
     font-size: 15px;
     font-family: "Roboto", sans-serif;
 }
+
 body{
     background-color: rgb(226, 226, 226);
 }
@@ -212,10 +213,6 @@ h2{
 
 }
 
-/*#BigImage a:hover{
-    map
-
-}*/
 
 #BigContainer ,ul{
 
