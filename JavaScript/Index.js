@@ -33,8 +33,8 @@
 
 
 
-document.addEventListener('DOMContentLoaded', () => Menucreation());
-console.log('DOM is loaded');
+//document.addEventListener('DOMContentLoaded', () => Menucreation());
+//console.log('DOM is loaded');
 
 
  //code from W3school on responsive menu
