@@ -80,7 +80,7 @@ h2{
 }
  
 
-.box1  {
+.box  {
     
      /*background: rgb(230, 165, 101);*/
      padding: 30px;
@@ -89,122 +89,9 @@ h2{
      border: 5px solid white;
      text-align: center;
      color: white;
-}
-.box2{
-    
-   /* background:  rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
+     float: left;
 }
 
-.box3{
-    
-    /*background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
-}
-
-.box4{
-    
-    /*background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
-}
-
-.box5{
-
-    
-    /*background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
-}
-
-.box6{
-  
-  /*background: rgb(230, 165, 101);*/
-  padding: 30px;
-  font-size: 12px;
-  display: block;
-  border: 5px solid white;
-  text-align: center;
-  color: white;
-}
-.box7{
-    flex: 1;
-   /* background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
-}
-.box8{
-    flex: 1;
-   /* background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid #ffffff;
-    text-align: center;
-    color: white;
-}
-.box9{
-    flex: 1;
-   /* background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid #ffffff;
-    text-align: center;
-    color: white;
-}
-.box10{
-    flex: 1;
-   /* background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
-}
-.box11{
-    flex: 1;
-    /*background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
-}
-.box12{
-    flex: 1;
-    /*background: rgb(230, 165, 101);*/
-    padding: 30px;
-    font-size: 12px;
-    display: block;
-    border: 5px solid white;
-    text-align: center;
-    color: white;
-}
 #BigImage{
     max-width: 100%;
     max-height: 50%;
@@ -290,14 +177,14 @@ h2{
     border-top: gray;
     
     
-}*/
+}
 
 .contacts{
     color: rgb(95, 85, 85);
     font-weight: bold;
     height: 2.5rem;
     text-align:center;
-}
+}*/
 
 
 #topbtn{
@@ -313,7 +200,7 @@ h2{
 
 }
 #topbtn :hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(102, 101, 101);
     color: rgb(255, 0, 0);
 }
 
