@@ -107,7 +107,7 @@ h2{
 
 }*/
 .blog li {
- display: block;
+ display: list-item;
  float: none;
 }
 
