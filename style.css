@@ -29,14 +29,15 @@ header{
 h1{
     text-decoration: none;
     text-align: center;
+    
 }
 
 h2{
     text-decoration: none;
     text-align: center;
+    
 }
     
-
 
 
 #logo {
@@ -55,9 +56,16 @@ h2{
     
 }
 @media screen and (max-width:800px){
-.navi.responsive {position: relative;}
-.navi.responsive a.icon { position:absolute;
+.navi.responsive , .box{position: relative;}
+.navi.responsive, a.icon { position:absolute;
 } 
+}
+
+@media screen and (max-width:600px){
+    .navi.responsive{
+        flex: 100%;
+        max-width: 100px;
+    }
 }
 
 #menu a{
@@ -79,18 +87,25 @@ h2{
     color:#fff;
 }
  
+/*.box{
+    column-count: 1;
+    column-rule: single white;
+    column-gap: 30%;
+    column-rule-width: 10rem;
+    column-width: 10px;
+}
 
 .box  {
     
-     /*background: rgb(230, 165, 101);*/
-     padding: 30px;
-     font-size: 12px;
-     display: block;
-     border: 5px solid white;
-     text-align: center;
-     color: white;
-     float: left;
-}
+     background:none;
+     padding: 30rem;
+     font-size: 5em;
+     display: flex;
+     border:solid white;
+     border: 20%;
+     
+
+}*/
 
 #BigImage{
     max-width: 100%;
@@ -101,11 +116,12 @@ h2{
 }
 
 
-#BigContainer ,ul{
+/*#BigContainer ,ul{
 
     display: flex;
     list-style: none; 
     float: left;
+    
 
 }
 
@@ -117,13 +133,15 @@ h2{
  
 
 
-}
+}*/
 #content{
-    color: white;
-}
+  text-decoration: none;
+  text-align: center;
 
+
+}
 #Posts {
-    
+     display: inline-block;
     text-align: center;
     font-size: 100%;
 }
@@ -149,7 +167,7 @@ h2{
     display: inline-block;
     text-align: center;
 }
-#nalediAbout{
+#nalediAbout, .box{
 
     border-radius: 50%;
     align-items: center;
@@ -159,10 +177,10 @@ h2{
     margin-right: auto;
  
 }
-.abouttext{
+.abouttext , p{
     display: inline-block;
     width: 50%;
-    font-size: 150%;
+    font-size: 100%;
 }
 
 
@@ -177,15 +195,18 @@ h2{
     border-top: gray;
     
     
-}
+}*/
 
 .contacts{
     color: rgb(95, 85, 85);
     font-weight: bold;
     height: 2.5rem;
-    text-align:center;
-}*/
+    display:inline-block;
+    margin-top: 10%;
+    margin-left: -30%;
+    font-size: 150%;
 
+}
 
 #topbtn{
     background-color: red;

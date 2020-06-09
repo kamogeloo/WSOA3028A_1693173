@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 //Back Button
     let topbutton = document.getElementById("topbtn");
     window.onscroll = function() {scrollTo()};
@@ -33,7 +29,7 @@
 
 
 
-//document.addEventListener('DOMContentLoaded', () => Menucreation());
+//document.addEventListener('DOMContentLoaded', () => LoadPage());
 //console.log('DOM is loaded');
 
 
