@@ -65,7 +65,7 @@ h2{
     padding: 1em 2em;
     text-decoration: none;
     font-size: 1.2em;
-    margin-left: 0px 10px 0px 0px;
+    margin-left: 10px;
     display: block;
     float: left;
     background: none;
@@ -229,7 +229,7 @@ h2{
 #Images{
  width: 500px;
  height: 500px;
- margin:center;
+ 
 
 
 }
