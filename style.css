@@ -187,6 +187,12 @@ h2{
     font-size: 100%;
 }
 
+.portfolio{
+    display: inline-block;
+    width: 50%;
+    font-size: 80%;
+    font-weight: lighter;
+}
 
 /*.footer{
 
