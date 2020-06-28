@@ -185,7 +185,7 @@ h2{
     margin-right: auto;
  
 }
-.abouttext , p{
+.abouttext{
     display: inline-block;
     width: 80%;
     font-size: 100%;
