@@ -2,7 +2,7 @@
 
 
 
-//Back Button
+//backToTop
     let topbutton = document.getElementById("topbtn");
     window.onscroll = function() {scrollTo()};
     console.log('it works');
@@ -17,7 +17,7 @@
     }
     }
 
-    //function for when it gets clicked. user goes to the top of the page
+    
 
     function BacktoTop() {
         document.body.scrollTop = 0

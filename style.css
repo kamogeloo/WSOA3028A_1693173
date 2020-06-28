@@ -171,6 +171,10 @@ h2{
     display: inline-block;
     text-align: center;
 }
+.text{
+    text-decoration: none;
+    text-align: center;
+}
 #nalediAbout, .box{
 
     border-radius: 50%;
@@ -183,8 +187,11 @@ h2{
 }
 .abouttext , p{
     display: inline-block;
-    width: 50%;
+    width: 80%;
     font-size: 100%;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio{
