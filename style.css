@@ -124,6 +124,7 @@ h2{
 #BigImage{
     max-width: 100%;
     display: block;
+    background-image: cover;
     
 
 }
@@ -153,12 +154,9 @@ iframe{
 
 
 }*/
-#content{
-  text-decoration: none;
-  text-align: center;
 
 
-}
+
 #Posts {
      display: inline-block;
     text-align: center;
@@ -168,23 +166,19 @@ iframe{
 #reference{
     color: white;
 }
-.blogposts{
 
-    display: inline-block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50rem;
-}
+
  figure{
     width: 100%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
+    align-content: center;
  }
 .aboutsection{
     display: inline-block;
     text-align: center;
+    align-content: center;
 }
 .text{
     text-decoration: none;
@@ -202,7 +196,9 @@ iframe{
 }
 .abouttext{
     display: inline-block;
-    width: 80%;
+    width: 70%;
+    height: 30%;
+    align-items: center;
     font-size: 100%;
     text-decoration: none;
     margin-left: auto;

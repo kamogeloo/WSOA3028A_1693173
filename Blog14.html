@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "author" content = "Naledi Sibiya">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name = "description" content="Semantic mark up blog">
+    <link rel= "stylesheet"  type= "text/css" href="style.css" />
+    <script src="JavaScript/Index.js" type="module" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body> 
+<header>
+    
+          
+
+                <nav class = "navi" id= "menu" >
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="About.html">About</a></li>
+                        <li> <a href="Portfolio.html">Character Portfolio</a></li>
+                        <li> <a href="Wireframe.html">Wireframes</a></li>
+                        <li> <a href="Styleguide.html">Website Style Guide</a></li>
+                        <li> <a href="Contact.html">Contact</a></li>
+                        <li> <a href="BlogPosts.html">Blogs</a></li>
+                    </ul>
+            
+                <a href = "javascript:void(0);" class="icon" onclick="Responsivemenu()"><i class = "bars"></i></a>
+            
+                </nav>
+
+                <div class = "aboutsection">
+                    <h1>
+                        Semantic markup</h1>
+                    
+                   <figure>
+                    <img src= "https://ebeccerrit.files.wordpress.com/2017/08/semantics-and-word-play.gif"
+                    alt= "gif illustrating semantic markup"
+                    >  
+                    <figcaption> Credit: <i>  https://imgur.com/a/x3P3C </i></figcaption>
+                </figure>
+            </div>
+
+               
+        </header> 
+
+<main> 
+
+   <article class = "aboutsection">
+
+    <content class= "abouttext">
+    <p> Semantic markup is the way in which programmers structure and write their code in HTML. it is HTML that intrioduces meaning to the web page, it is not just what the page looks </p>
+    
+    <p> the semantic element in HTML include the header, footer, article, section , which are called sementic because of how they specify what the use of the element is.for example, an article is meant to represent enclosen an article.</p>
+
+    <p> The semantic elements explain exactly what they are for in the code, making it easier for people to read the code and understand what everything means in the code.</p>
+    
+    <p> It is very important to use the right  tag or element because they each perform thir own function. </p>
+    
+    <p> I will be building up more on this topic as time  </p>
+    </content>
+</main>
+
+</article>
+
+<footer>
+    <date id="posts"> <i>Written on June 4,2020 </i> </date>
+
+  
+
+        <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
+
+    </div> 
+</footer>
+    
+<script>
+            
+    function BacktoTop() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0;
+    }
+        </script>
+</body>
+</html>
