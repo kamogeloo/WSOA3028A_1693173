@@ -92,7 +92,9 @@
         </div>
         
     
-         <div>   
+         <div class= "abouttext">   
+
+                  <h2> Braamfontein </h2>
             <figure class= "Mash-up">
 
                 <img src = "Slide1.PNG"
@@ -103,14 +105,28 @@
                  <figcaption>Braamfontein Johannesburg</figcaption>
                  
              </figure>
+             <p>I like to call Braam my other home; this is where my life began really, it’s where I found myself (well, some parts of myself) and where most of my friendships began. 
+                 I came to live in Braam in 2016, I lived in different South Point buildings and took the bus everyday to and from campus. My experience living in Braam has been nothing but amazing, the weekends were the best times because they were the fun times.
+                There is always something happening there, there is so much to do; most creatives come to Braam during the weekends, so there are so many opportunities to network and form friendships and business relationships too. </p>
+                <p>Even the aesthtics in Braam scream art, you see </p>
 
             </div> 
 
-            <div>
-                <iframe width="560" height="315" 
+            <div class= "abouttext">
+                <h2> Favourite Headwrap brand</h2>
+                <iframe width="560" height="500" 
                 src="https://www.youtube.com/embed/0jE-8zNr4Gk" 
                 frameborder="1" allow="accelerometer; autoplay; audio;" allowfullscreen></iframe>
             </div>
+
+            <div class = "aboutsection">
+
+                <article class="abouttext">
+                    <h2>example</h2>
+                    <object> not just by the kids at school but also by the teachers. </object>
+                  
+    
+                </article>
 
         </main>
 
@@ -120,6 +136,7 @@
                 <button onclick = "BacktoTop()" id ="topbtn" tittle = "Back to top">Back to Top</button>
         
             </div> 
+            
 
         </footer>
         <script>
@@ -128,6 +145,22 @@
         document.body.scrollTop = 0
         document.documentElement.scrollTop = 0;
     }
+
+
+    
+fetch("https://api.chucknorris.io/jokes/random")
+.then ((response) => response.json())
+.then((memes) => {
+    console.log(memes);
+    console.log('joke');
+    showMeme(memes);
+    
+})
+ .catch((error) => console.warn('warning', error));
+ 
+ const showMeme = (memeDetails) => {
+     document.querySelector("object").innerText = memeDetails.value;
+ };
         </script>
 
     </body>

@@ -47,9 +47,12 @@ h2{
     font-size: 30px;
     text-align: center;
     color: gray;
-
-
+    text-decoration: none;
 }
+    
+
+
+
 
 #menu, li {
     margin: 0;
@@ -59,13 +62,13 @@ h2{
     
 }
 @media screen and (max-width:800px){
-.navi.responsive , .box{position: relative;}
+.navi.responsive , figure, body {position: relative;}
 .navi.responsive, a.icon { position:absolute;
 } 
 }
 
 @media screen and (max-width:600px){
-    .navi.responsive{
+    .navi.responsive,  body{
         flex: 100%;
         max-width: 100px;
     }
@@ -118,8 +121,14 @@ h2{
     max-width: 100%;
     max-height: 50%;
     display: block;
-    margin: 0;
+    
 
+}
+
+iframe{
+    border: 1px solid black;
+    width: 100%;
+  
 }
 
 
