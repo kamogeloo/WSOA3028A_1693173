@@ -45,9 +45,13 @@ h2{
 
 #logo {
     font-size: 30px;
+    position: absolute;
+    top: 0;
     text-align: center;
     color: gray;
     text-decoration: none;
+    display: inline-block;
+    
 }
     
 
@@ -119,7 +123,6 @@ h2{
 
 #BigImage{
     max-width: 100%;
-    max-height: 50%;
     display: block;
     
 
